@@ -1,5 +1,17 @@
-streamlit==1.26.0
-pandas==2.1.1
-numpy==1.27.5
-scikit-learn==1.3.2
-joblib==1.3.2
+# Core ML libraries
+numpy>=1.25.0
+pandas>=2.0.3
+scikit-learn>=1.3.0
+
+# Streamlit for web interface
+streamlit>=1.26.0
+
+# Optional for better logging and UI
+rich>=14.0.0
+
+# Data handling
+matplotlib>=3.8.0
+seaborn>=0.12.2
+
+# Optional (if using Jupyter notebooks)
+notebook>=7.0.0
